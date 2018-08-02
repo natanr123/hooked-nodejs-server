@@ -1,0 +1,16 @@
+{
+  "name": "aigameclient",
+  "description": "A package using naive versioning",
+  "author": "",
+  "scripts": {
+    "test": "mocha -b --recursive --require babel-polyfill --require ./src/babelhooks ./src/node_modules/test"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
