@@ -11,6 +11,7 @@
     "express": "^4.16.3"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
     "mocha": "^5.2.0"
   }
 }
